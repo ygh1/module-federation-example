@@ -9,13 +9,13 @@ cd products && npm i && npm start
 
 ## 应用模块引用关系
 ### exposes
-host add
-carts index
-products index
+- host add
+- carts index
+- products index
 ### remote
-host 引用 carts/index
-host 引用 products/index
-carts 引用 host/add
+- host 引用 carts/index
+- host 引用 products/index
+- carts 引用 host/add
 
 
 ## 公用 faker
